@@ -67,6 +67,7 @@ public class Clock {
         run();
     }
 
+    @SuppressWarnings("all")
     private void run() {
         while (true) {
             update();
